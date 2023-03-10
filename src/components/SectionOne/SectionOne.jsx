@@ -10,7 +10,7 @@ const SectionOne = () => {
       <WrapItem 
 >
          <Image
-          bg='#0881a3'
+          bg='#455d7a'
           src={fotoCv}
           fallbackSrc="https://via.placeholder.com/150"
           h="300px"
@@ -30,7 +30,7 @@ const SectionOne = () => {
         <h1 style={{fontSize:'40px',color:'black',textAlign:'center'}} >Bienvenido/a  a mi portfolio</h1>
         </Box>
         <Box>
-          <p className="animate__animated animate__backInRight" style={{ textAlign: "center",fontWeight:'800', padding: "10px", color:'#0881a3' }}> FrontEnd/React Developer </p>
+          <p className="animate__animated animate__backInRight" style={{ textAlign: "center",fontWeight:'800', padding: "10px", color:'#455d7a' }}> FrontEnd/React Developer </p>
 
         </Box>
        <Box style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'10px'}}>

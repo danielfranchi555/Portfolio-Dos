@@ -6,7 +6,7 @@ import github from '../../img/github.png'
 
 const SectionOne = () => {
   return (
-    <Wrap justify="center" style={{ marginTop: "80px" }} spacing="40px">
+    <Wrap justify="center" style={{ marginTop: "180px" }} spacing="40px">
       <WrapItem 
 >
          <Image

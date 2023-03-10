@@ -1,0 +1,14 @@
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #494949;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+/*# sourceMappingURL=NavBar.css.map */

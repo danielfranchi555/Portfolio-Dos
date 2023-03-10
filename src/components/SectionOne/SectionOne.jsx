@@ -1,4 +1,4 @@
-import { Box, Center, Wrap, WrapItem, Image, Button } from "@chakra-ui/react";
+import { Box, Wrap, WrapItem, Button } from "@chakra-ui/react";
  import fotoCv from "../../img/foto-cv.jpg"
  import React from "react";
 import linkedin from '../../img/linkedin.png'
@@ -7,15 +7,11 @@ import github from '../../img/github.png'
 const SectionOne = () => {
   return (
     <Wrap justify="center" style={{ marginTop: "180px" }} spacing="40px">
-      <WrapItem 
->
-         <Image
-          bg='black'
-          src={fotoCv}
-          fallbackSrc="https://via.placeholder.com/150"
-          h="300px"
-          borderRadius='full'
-        /> 
+      <WrapItem>
+        <Box>
+
+         <img src={fotoCv} style={{width:'250px',borderRadius:'100px'}} alt="" />
+        </Box>
       </WrapItem>
       <WrapItem
         maxW={{ base: "290px", sm: "300px" }}

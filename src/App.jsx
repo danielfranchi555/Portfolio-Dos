@@ -9,6 +9,7 @@ import 'animate.css';
 import Flecha from './components/Flecha/Flecha';
 import SectionTres from './components/SectionTres/SectionTres';
 import SectionFour from './components/SectionFour/SectionFour';
+import SectionFIve from './components/SectionFive/SectionFive';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <SectionDos/>
         <SectionTres/>
         <SectionFour/>
+        <SectionFIve/>
       </div>
       <Footer/>
     </ChakraProvider>

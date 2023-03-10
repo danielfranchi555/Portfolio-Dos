@@ -1,4 +1,4 @@
-import { Avatar, Box,Button,ButtonGroup,Card,CardBody,  CardFooter,  CardHeader, Center, Divider, Flex, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
+import {Box,ButtonGroup,Card,CardBody,  CardFooter, Center, Divider, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import ecommerce from '../../img/ecommerce.png'
 import appClima from '../../img/app-clima.png'
 import movieApp from '../../img/movie-app.png'
@@ -8,6 +8,7 @@ import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Reveal from 'react-reveal/Reveal';
 import './SectionDos.scss'
+
 const SectionDos = () => {
   return (
     <Box id='proyectos' style={{display:'flex',flexDirection:'column'}}>
@@ -19,7 +20,7 @@ const SectionDos = () => {
                 <Reveal effect="fadeInUp">
                 <a href="https://crud-firebase-azure.vercel.app/">
 <WrapItem  style={{padding:'30px'}}>
-<Card className='items' maxW='xs'>
+<Card  className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image
       src={crud}
@@ -65,7 +66,7 @@ const SectionDos = () => {
                 <Reveal effect="fadeInUp">
                   <a href="https://chat-app-liart-phi.vercel.app/">
                              <WrapItem  style={{padding:'30px'}}>
-                             <Card className='items' maxW='xs'>
+                             <Card  className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image
       src={chat}
@@ -103,7 +104,7 @@ const SectionDos = () => {
                   <a href="https://danielfranchi555.github.io/Ecommerce-React/">
 
                                      <WrapItem  style={{padding:'30px'}}>
-                                     <Card className='items' maxW='xs'>
+                                     <Card className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image
       src={ecommerce}
@@ -143,7 +144,7 @@ const SectionDos = () => {
                 <Reveal effect="fadeInUp">
                   <a href="https://app-movies-co61.vercel.app/">
                                    <WrapItem  style={{padding:'30px'}}>
-                                   <Card className='items' maxW='xs'>
+                                   <Card className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image
       src={movieApp}
@@ -180,7 +181,7 @@ const SectionDos = () => {
                   <a href="https://danielfranchi555.github.io/App-Weather/">
 
                              <WrapItem  style={{padding:'30px'}}>
-                 <Card className='items' maxW='xs'>
+                 <Card className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image
       src={appClima}

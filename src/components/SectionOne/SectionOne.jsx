@@ -1,16 +1,20 @@
 import { Box, Center, Wrap, WrapItem, Image, Button } from "@chakra-ui/react";
  import fotoCv from "../../img/foto-cv.png"
  import React from "react";
-import { color } from "framer-motion";
+import linkedin from '../../img/linkedin.png'
+import github from '../../img/github.png'
 
 const SectionOne = () => {
   return (
     <Wrap justify="center" style={{ marginTop: "80px" }} spacing="40px">
-      <WrapItem>
+      <WrapItem 
+>
          <Image
+          bg='#0881a3'
           src={fotoCv}
           fallbackSrc="https://via.placeholder.com/150"
           h="300px"
+          borderRadius='full'
         /> 
       </WrapItem>
       <WrapItem
@@ -26,10 +30,17 @@ const SectionOne = () => {
         <h1 style={{fontSize:'40px',color:'black',textAlign:'center'}} >Bienvenido/a  a mi portfolio</h1>
         </Box>
         <Box>
-          <p className="animate__animated animate__backInRight" style={{ textAlign: "center",fontWeight:'700', padding: "10px", color:'#e7eaf6' }}> FrontEnd/React Developer </p>
+          <p className="animate__animated animate__backInRight" style={{ textAlign: "center",fontWeight:'800', padding: "10px", color:'#0881a3' }}> FrontEnd/React Developer </p>
+
         </Box>
-       <Box>
+       <Box style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'10px'}}>
             <Button bg='black' color='white'>Contact me</Button>
+            <Box>
+          <img src={linkedin} style={{width:'30px'}} alt="" />
+          </Box>
+          <Box>
+            <img src={github} style={{width:'30px'}} alt="" />
+          </Box>
         </Box>
         
       </WrapItem>

@@ -14,7 +14,7 @@ const SectionOne = () => {
         /> 
       </WrapItem>
       <WrapItem
-        maxW={{ base: "290px", sm: "500px" }}
+        maxW={{ base: "290px", sm: "300px" }}
         style={{
           display: "flex",
           flexDirection: "column",
@@ -23,10 +23,10 @@ const SectionOne = () => {
         }}
       >
         <Box>
-        <h1 style={{fontSize:'40px',color:'white'}} >Bienvenido/a  a mi portfolio</h1>
+        <h1 style={{fontSize:'40px',color:'black',textAlign:'center'}} >Bienvenido/a  a mi portfolio</h1>
         </Box>
         <Box>
-          <p className="animate__animated animate__backInRight" style={{ textAlign: "center", padding: "10px", color:'#8dc6ff' }}> FrontEnd/React Developer </p>
+          <p className="animate__animated animate__backInRight" style={{ textAlign: "center",fontWeight:'700', padding: "10px", color:'#e7eaf6' }}> FrontEnd/React Developer </p>
         </Box>
        <Box>
             <Button bg='black' color='white'>Contact me</Button>

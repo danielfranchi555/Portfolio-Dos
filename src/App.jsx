@@ -8,18 +8,19 @@ import Footer from './components/Footer/Footer';
 import 'animate.css';
 import Flecha from './components/Flecha/Flecha';
 import SectionTres from './components/SectionTres/SectionTres';
+import SectionFour from './components/SectionFour/SectionFour';
 
 function App() {
 
   return (
-    
     <ChakraProvider>
        <NavBar/>
-      <div className="App" style={{maxWidth:'800px',margin:'0 auto'}}>
+      <div className="App" style={{maxWidth:'780px',margin:'0 auto'}}>
         <SectionOne/>
         <Flecha/>
         <SectionDos/>
         <SectionTres/>
+        <SectionFour/>
       </div>
       <Footer/>
     </ChakraProvider>

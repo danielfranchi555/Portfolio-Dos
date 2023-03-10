@@ -1,4 +1,4 @@
-import { Avatar, Box,Card,CardBody,  CardHeader, Flex, Heading, Image, Text, Wrap, WrapItem } from '@chakra-ui/react'
+import { Avatar, Box,Button,ButtonGroup,Card,CardBody,  CardFooter,  CardHeader, Center, Divider, Flex, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import ecommerce from '../../img/ecommerce.png'
 import appClima from '../../img/app-clima.png'
 import movieApp from '../../img/movie-app.png'
@@ -7,38 +7,51 @@ import chat from '../../img/chat.png'
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Reveal from 'react-reveal/Reveal';
-
+import './SectionDos.scss'
 const SectionDos = () => {
   return (
-    <Box
-    style={{display:'flex',flexDirection:'column'}}
-    >
+    <Box id='proyectos' style={{display:'flex',flexDirection:'column'}}>
             <Box style={{margin:'auto',marginTop:'200px'}}>
-        <h1 style={{fontSize:'40px',fontWeight:'600',color:'white'}}>Proyectos</h1>
-        </Box>  
+        <h1 style={{fontSize:'40px',fontWeight:'600',color:'black'}}>Proyectos</h1>
+        </Box> 
         <Wrap justify='center' >
           <Zoom>
                 <Reveal effect="fadeInUp">
-                 <WrapItem  style={{padding:'30px'}}>
-     <Card style={{backgroundColor:'black'}}    maxW={{ base: '200px', sm: '300px' }}>
-  <CardHeader>
-      <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-        <Box>
-          <Heading style={{color:'white'}} size='sm'>Segun Adebayo</Heading>
-          <Text style={{color:'white'}}>Creator, Chakra UI</Text>
-        </Box>
-      </Flex>
-  </CardHeader>
-
-  <Image
-    objectFit='cover'
-    src={crud}
-    alt='Chakra UI'
-  />
-
+                <a href="https://crud-firebase-azure.vercel.app/">
+<WrapItem  style={{padding:'30px'}}>
+<Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
+    <Image
+      src={crud}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+      className='image'
+    />
+    <Stack mt='6' spacing='3'>
+      <Heading size='md' className='project-name'>Crud-Firebase</Heading>
+      <p>
+        This sofa is perfect for modern tropical spaces, baroque inspired
+        
+      </p>
+      
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      
+      
+    </ButtonGroup>
+  </CardFooter>
 </Card>
 
-     </WrapItem> 
+     </WrapItem>
+
+                </a>
+
+                     
+        
+     
            </Reveal>
           </Zoom>
     
@@ -50,48 +63,76 @@ const SectionDos = () => {
      
           <Zoom>
                 <Reveal effect="fadeInUp">
-                 <WrapItem  style={{padding:'30px'}}>
-     <Card style={{backgroundColor:'black'}}    maxW={{ base: '200px', sm: '300px' }}>
-     <CardHeader>
-      <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-        <Box>
-          <Heading style={{color:'white'}} size='sm'>Segun Adebayo</Heading>
-          <Text style={{color:'white'}}>Creator, Chakra UI</Text>
-        </Box>
-      </Flex>
-  </CardHeader>
-  <Image
-    objectFit='cover'
-    src={chat}
-    alt='Chakra UI'
-  />
+                  <a href="https://chat-app-liart-phi.vercel.app/">
+                             <WrapItem  style={{padding:'30px'}}>
+                             <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
+    <Image
+      src={chat}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+      className='image'
+    />
+    <Stack mt='6' spacing='3'>
+      <Heading className='project-name' size='md'>ChatApp-Firebase</Heading>
+      <Text>
+        This sofa is perfect for modern tropical spaces, baroque inspired
+        
+      </Text>
+      
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      <Center>
+      
+      </Center>
+    </ButtonGroup>
+  </CardFooter>
 </Card>
      </WrapItem>
+                  </a>
+        
         </Reveal>
           </Zoom> 
           
           
           <Zoom>
                 <Reveal effect="fadeInUp">
-                 <WrapItem  style={{padding:'30px'}}>
-     <Card style={{backgroundColor:'black'}}    maxW={{ base: '200px', sm: '300px' }}>
-     <CardHeader>
-      <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-        <Box>
-          <Heading style={{color:'white'}} size='sm'>Ecommerce</Heading>
-          <Text style={{color:'white'}}>Creator, Chakra UI</Text>
-        </Box>
-      </Flex>
-  </CardHeader>
-  <Image
-    objectFit='cover'
-    src={ecommerce}
-    alt='Chakra UI'
-  />
+                  <a href="https://danielfranchi555.github.io/Ecommerce-React/">
 
+                                     <WrapItem  style={{padding:'30px'}}>
+                                     <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
+    <Image
+      src={ecommerce}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+      className='image'
+
+    />
+    <Stack mt='6' spacing='3'>
+      <Heading className='project-name' size='md'>Ecommerce-React</Heading>
+      <Text>
+        This sofa is perfect for modern tropical spaces, baroque inspired
+      
+      </Text>
+
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      
+      
+    </ButtonGroup>
+  </CardFooter>
 </Card>
 
-     </WrapItem> 
+     </WrapItem>
+                  </a>
+ 
            </Reveal>
           </Zoom>
 
@@ -100,55 +141,74 @@ const SectionDos = () => {
     <Zoom>
       
                 <Reveal effect="fadeInUp">
-                 <WrapItem  style={{padding:'30px'}}>
-     <Card style={{backgroundColor:'black'}}    maxW={{ base: '200px', sm: '300px' }}>
-     <CardHeader>
-      <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-        <Box>
-          <Heading style={{color:'white'}} size='sm'>Segun Adebayo</Heading>
-          <Text style={{color:'white'}}>Creator, Chakra UI</Text>
-        </Box>
-      </Flex>
-  </CardHeader>
-  <Image
-    objectFit='cover'
-    src={movieApp}
-    alt='Chakra UI'
-  />
+                  <a href="https://app-movies-co61.vercel.app/">
+                                   <WrapItem  style={{padding:'30px'}}>
+                                   <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
+    <Image
+      src={movieApp}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+      className='image'
 
+    />
+    <Stack mt='6' spacing='3'>
+      <Heading size='md'>App-movies</Heading>
+      <Text>
+        This sofa is perfect for modern tropical spaces, baroque inspired
+      </Text>
+      
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      
+      
+    </ButtonGroup>
+  </CardFooter>
 </Card>
 
-     </WrapItem> 
+     </WrapItem>
+                  </a>
+   
            </Reveal>
           </Zoom>
 
     <Zoom>
                 <Reveal effect="fadeInUp">
-                 <WrapItem  style={{padding:'30px'}}>
-     <Card style={{backgroundColor:'black'}}    maxW={{ base: '200px', sm: '300px' }}>
-  <CardHeader>
-    <Flex spacing='4'>
-      <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-        <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
-        <Box>
-          <Heading size='sm' style={{color:'white'}} >Segun Adebayo</Heading>
-          <Text style={{color:'white'}}>Creator, Chakra UI</Text>
-        </Box>
-      </Flex>
-    </Flex>
-  </CardHeader>
-  <CardBody>
-  
-  </CardBody>
-  <Image
-    objectFit='cover'
-    src={appClima}
-    alt='Chakra UI'
-  />
+                  <a href="https://danielfranchi555.github.io/App-Weather/">
 
+                             <WrapItem  style={{padding:'30px'}}>
+                 <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
+    <Image
+      src={appClima}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+      className='image'
+
+    />
+    <Stack mt='6' spacing='3'>
+      <Heading size='md'>App-Weather</Heading>
+      <Text>
+        This sofa is perfect for modern tropical spaces, baroque inspired
+      </Text>
+      
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      
+      
+    </ButtonGroup>
+  </CardFooter>
 </Card>
 
      </WrapItem> 
+                  </a>
+        
            </Reveal>
           </Zoom>
         </Wrap>  

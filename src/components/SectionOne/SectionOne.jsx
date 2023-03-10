@@ -1,5 +1,5 @@
 import { Box, Center, Wrap, WrapItem, Image, Button } from "@chakra-ui/react";
- import fotoCv from "../../img/foto-cv.png"
+ import fotoCv from "../../img/foto-cv.jpg"
  import React from "react";
 import linkedin from '../../img/linkedin.png'
 import github from '../../img/github.png'
@@ -10,7 +10,7 @@ const SectionOne = () => {
       <WrapItem 
 >
          <Image
-          bg='#455d7a'
+          bg='black'
           src={fotoCv}
           fallbackSrc="https://via.placeholder.com/150"
           h="300px"

@@ -4,10 +4,10 @@ import React from 'react'
 
 const SectionTres = () => {
   return (
-    <Box id='sobreMi' style={{alignItems:'center',marginTop:'100px'}}>
+    <Box bg='#ffffff' id='sobreMi' m='100px' style={{alignItems:'center'}}>
        <Box mb='50px'>
         <Center>
-        <h1 style={{fontSize:'30px',color:'black'}}>Sobre Mi</h1>
+        <h1 style={{fontSize:'30px',fontWeight:'600',color:'#455d7a'}}>Sobre Mi</h1>
         </Center>
         </Box>
         <Center>

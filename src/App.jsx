@@ -16,9 +16,8 @@ function App() {
   return (
     <ChakraProvider>
        <NavBar/>
-      <div className="App" style={{maxWidth:'780px',margin:'0 auto'}}>
-        <SectionOne/>
-        <Flecha/>
+      <div className="App" >
+          <SectionOne/>    
         <SectionDos/>
         <SectionTres/>
         <SectionFour/>

@@ -10,7 +10,7 @@ import './NavBar.scss'
 const NavBar = () => {
   return (
     <div >
-    <Navbar fixed='top' style={{backgroundColor:' #fffdfb'}} expand="lg">
+    <Navbar fixed='top' style={{backgroundColor:' white'}} expand="lg">
       <Container >
         <Navbar.Brand href="#home"  style={{color:'#455d7a',fontWeight:'800'}}>Daniel Franchi</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

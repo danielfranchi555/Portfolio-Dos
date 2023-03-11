@@ -28,10 +28,10 @@ const SectionFIve = () => {
 
   
   return (
-    <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',marginTop:'100px'}} >
+    <Box  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}} >
        <Box>
           <Center>
-            <h1 style={{fontSize:'40px'}}> Contact me</h1>
+            <h1 style={{fontSize:'40px',fontWeight:'600',color:'#455d7a'}}> Contact me</h1>
           </Center>
           </Box>
         <form onSubmit={handleSubmit}  mt='3rem' 
@@ -58,9 +58,9 @@ const SectionFIve = () => {
         field="message"
         errors={state.errors}
       />
-  <Button disabled={state.submitting} type='submit' mt='20px' bg='black' color='white'> Submit </Button>
+  <Button disabled={state.submitting} type='submit' mt='20px' bg='#455d7a' color='white'> Submit </Button>
 </form>
-    </div>
+    </Box>
   
   )
 }

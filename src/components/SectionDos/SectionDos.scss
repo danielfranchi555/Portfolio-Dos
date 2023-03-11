@@ -26,8 +26,8 @@
   transition: all 0.5s;
 }
  .items:hover {
-    border: 1px solid #455d7a;
-     box-shadow: 10px 10px 10px  #455d7a;
+/*     border: 1px solid rgb(176, 173, 173);
+ */     box-shadow: 1px 1px 12px   white;
     & .project-name p {
       transform: translateY(-10px);
     }

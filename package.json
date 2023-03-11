@@ -13,6 +13,7 @@
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@formspree/react": "^2.4.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.2.3",

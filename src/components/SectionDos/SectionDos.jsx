@@ -19,7 +19,7 @@ const SectionDos = () => {
           <Zoom>
                 <Reveal effect="fadeInUp">
                 <a href="https://crud-firebase-azure.vercel.app/">
-<WrapItem  style={{padding:'30px'}}>
+ <WrapItem  style={{padding:'30px'}}>
 <Card  className='items' maxW='300px' H='100px'>
   <CardBody className='icon-wrapper'>
     <Image

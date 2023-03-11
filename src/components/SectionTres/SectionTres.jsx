@@ -19,7 +19,11 @@ const SectionTres = () => {
    </WrapItem>
          <WrapItem style={{ width:'300px'}}>
             <Center m='0px'>
-        <p style={{color:'black',fontSize:'20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex omnis praesentium blanditiis quos natus harum aut eaque et rem. Consectetur vel voluptatibus odit facilis quidem laborum consequatur! Sapiente, neque!</p>
+        <p style={{color:'black',fontSize:'20px'}}>Mi nombre es Daniel Franchi tengo 22 años
+actualmente vivo en Córdoba, Argentina.
+Me encuentro en la búsqueda de mi primer oportunidad laboral.
+Estoy con muchas ganas de ser el mejor en lo que hago y encontrar ese lugar donde pueda contribuir
+con mi experiencia y conocimiento!</p>
             </Center>
          </WrapItem>
   </Wrap>

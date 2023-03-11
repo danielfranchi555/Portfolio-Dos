@@ -3,6 +3,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
+import pdf from '../../../src/Curriculum Daniel-Franchi.pdf'
 import './NavBar.scss'
 
 const NavBar = () => {
@@ -17,7 +19,7 @@ const NavBar = () => {
             <Nav.Link className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#sobreMi">Sobre mi</Nav.Link>
             <Nav.Link  className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#proyectos">Proyectos</Nav.Link >
             <Nav.Link className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#skills">Tecnologias</Nav.Link>
-            <Nav.Link  style={{color:'black',fontWeight:'500'}} href="#link"> <Center> <Button size='sm' bg='#455d7a' color='white'> Descargar Cv</Button> </Center> </Nav.Link>
+           <Center> <a  style={{color:'black',fontWeight:'500'}} href={pdf} download="Curriculum">  <Button size='sm' bg='#455d7a' color='white'> Descargar Cv</Button> </a> </Center> 
           </Nav>
         </Navbar.Collapse>
       </Container>

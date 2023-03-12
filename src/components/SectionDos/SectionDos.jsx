@@ -30,7 +30,7 @@ const SectionDos = () => {
       h='130px'
       w='100%'
     />
-    <Stack mt='10' spacing='0'>
+    <Stack mt='5' spacing='0'>
       <Heading size='md' className='project-name'>Crud-Firebase</Heading>
       <p style={{fontSize:'14px'}}>
       Este proyecto es una aplicación web que
@@ -40,7 +40,7 @@ Eliminar productos
       </p>
     </Stack>
   </CardBody>
-  <CardFooter>
+  <CardFooter h='auto'>
      <a href="https://crud-firebase-azure.vercel.app/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
   </CardFooter>
 </Card>

@@ -7,8 +7,7 @@ import sass from '../../img/sass.png'
 import css from '../../img/css.png'
 import html from '../../img/html.png'
 import chakra from '../../img/chakra.png'
-import Zoom from 'react-reveal/Zoom';
-import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react'
 
@@ -19,8 +18,8 @@ const SectionFour = () => {
           <h1   style={{fontSize:'40px',color:'#455d7a',fontWeight:'600',padding:'20px'}}>Skills</h1>  
         </div>
 
-         <Zoom>
-  <Slide left >
+        
+  <Fade left>
       <Box gap='13px'm='20px' mt='10px' style={{display:'flex',justifyContent:'center'}}>
       <Card  maxW='100px'>
   <CardBody>
@@ -61,14 +60,12 @@ const SectionFour = () => {
   <Divider />
 </Card>
 </Box>
-  </Slide>
-  </Zoom>
+  </Fade>
 
 
 
 
-  <Zoom >
-  <Slide left >
+  <Fade  left >
       <Box gap='13px' m='20px' mt='50px'  style={{display:'flex',justifyContent:'center'}}>
       <Card maxW='100px' >
   <CardBody>
@@ -109,8 +106,7 @@ const SectionFour = () => {
   <Divider />
 </Card>
       </Box>
-  </Slide>
-  </Zoom>
+  </Fade>
 
     
     

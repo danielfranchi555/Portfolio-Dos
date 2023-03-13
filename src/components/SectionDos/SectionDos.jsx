@@ -20,7 +20,7 @@ const SectionDos = () => {
                 <Reveal effect="fadeInUp">
                 <a href="https://crud-firebase-azure.vercel.app/">
  <WrapItem  style={{padding:'30px'}}>
-<Card  className='items' maxW='300px' h='390px'>
+ <Card className='items' maxW='xs'>
   <CardBody className='icon-wrapper'>
     <Image
       src={crud}
@@ -30,21 +30,22 @@ const SectionDos = () => {
       h='130px'
       w='100%'
     />
-    <Stack mt='5' spacing='0'>
-      <Heading size='md' className='project-name'>Crud-Firebase</Heading>
-      <p style={{fontSize:'14px'}}>
+    <Stack mt='6' spacing='3'>
+      <Heading  size='md'>Crud-Firebase</Heading>
+      <Text h='100px'>
       Este proyecto es una aplicación web que
 utiliza React y Firebase Firestore como
 Base de Datos para Insertar, Actualizar y
 Eliminar productos
-      </p>
+      </Text>
     </Stack>
   </CardBody>
-  <CardFooter h='auto'>
-     <a href="https://crud-firebase-azure.vercel.app/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
+  <CardFooter>
+    <ButtonGroup spacing='1'>
+     <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button>
+    </ButtonGroup>
   </CardFooter>
 </Card>
-
      </WrapItem>
 
                 </a>
@@ -65,8 +66,8 @@ Eliminar productos
                 <Reveal effect="fadeInUp">
                   <a href="https://chat-app-liart-phi.vercel.app/">
                              <WrapItem  style={{padding:'30px'}}>
-                             <Card  className='items' maxW='300px' h='390px'>
-                             <CardBody className='icon-wrapper'>
+                             <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
     <Image
       src={chat}
       alt='Green double couch with wooden legs'
@@ -75,16 +76,19 @@ Eliminar productos
       h='130px'
       w='100%'
     />
-    <Stack mt='10' spacing='0'>
-      <Heading size='md' className='project-name'>ChatApp-Firebase</Heading>
-      <p style={{fontSize:'14px'}}>
+    <Stack mt='6' spacing='3'>
+      <Heading  size='md'>ChatApp - Firebase</Heading>
+      <Text h='100px'>
       App creada con React+Vite utilizando a
 Firebase como base de datos y Authentication
-      </p>
+
+      </Text>
     </Stack>
   </CardBody>
   <CardFooter>
-  <a href="https://chat-app-liart-phi.vercel.app/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
+    <ButtonGroup spacing='1'>
+     <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button>
+    </ButtonGroup>
   </CardFooter>
 </Card>
      </WrapItem>
@@ -99,8 +103,8 @@ Firebase como base de datos y Authentication
                   <a href="https://danielfranchi555.github.io/Ecommerce-React/">
 
                                      <WrapItem  style={{padding:'30px'}}>
-                                     <Card className='items' maxW='300px' h='390px'>
-                                     <CardBody className='icon-wrapper'>
+                                     <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
     <Image
       src={ecommerce}
       alt='Green double couch with wooden legs'
@@ -109,17 +113,21 @@ Firebase como base de datos y Authentication
       h='130px'
       w='100%'
     />
-    <Stack mt='5' spacing='0'>
-      <Heading size='md' className='project-name'>Ecommerce</Heading>
-      <p style={{fontSize:'14px'}}>
+    <Stack mt='6' spacing='3'>
+      <Heading  size='md'>Ecommerce -React
+</Heading>
+      <Text h='100px'>
       App Ecommerce consumiendo un Api de
 productos donde el cliente puede realizar una
 compra satisfactoriamente utilizando UseContext
-      </p>
+
+      </Text>
     </Stack>
   </CardBody>
   <CardFooter>
-  <a href="https://danielfranchi555.github.io/Ecommerce-React/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
+    <ButtonGroup spacing='1'>
+     <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button>
+    </ButtonGroup>
   </CardFooter>
 </Card>
 
@@ -136,8 +144,8 @@ compra satisfactoriamente utilizando UseContext
                 <Reveal effect="fadeInUp">
                   <a href="https://app-movies-co61.vercel.app/">
                                    <WrapItem  style={{padding:'30px'}}>
-                                   <Card className='items' maxW='300px'h='390px'>
-                                   <CardBody className='icon-wrapper'>
+                                   <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
     <Image
       src={movieApp}
       alt='Green double couch with wooden legs'
@@ -145,21 +153,20 @@ compra satisfactoriamente utilizando UseContext
       className='image'
       h='130px'
       w='100%'
-
     />
-    <Stack mt='5' spacing='0'>
-      <Heading  size='md' className='project-name'>AppMovies-React
-</Heading>
-      <p style={{fontSize:'14px'}}>
+    <Stack mt='6' spacing='4'>
+      <Heading  size='md'>AppMovies-React</Heading>
+      <Text h='100px'>
       App de peliculas con Authentication de Auth0
 para el inicio de Sesion y consumiendo la Api de TMDB
 para mostrar el trailer y detalle de cada pelicula
-
-      </p>
+      </Text>
     </Stack>
   </CardBody>
   <CardFooter>
-  <a href="https://app-movies-co61.vercel.app/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
+    <ButtonGroup spacing='2'>
+     <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button>
+    </ButtonGroup>
   </CardFooter>
 </Card>
 
@@ -174,8 +181,8 @@ para mostrar el trailer y detalle de cada pelicula
                   <a href="https://danielfranchi555.github.io/App-Weather/">
 
                              <WrapItem  style={{padding:'30px'}}>
-                 <Card className='items' maxW='300px' h='390px'>
-                 <CardBody className='icon-wrapper'>
+                             <Card className='items' maxW='xs'>
+  <CardBody className='icon-wrapper'>
     <Image
       src={appClima}
       alt='Green double couch with wooden legs'
@@ -184,20 +191,20 @@ para mostrar el trailer y detalle de cada pelicula
       h='130px'
       w='100%'
     />
-    <Stack mt='5' spacing='0'>
-      <Heading size='md' className='project-name'>AppWheater-React
-</Heading>
-      <p style={{fontSize:'14px'}}>
+    <Stack mt='6' spacing='3'>
+      <Heading  size='md'>AppWheater-React</Heading>
+      <Text h='100px'>
       Aplicacion consumiendo la Api de OpenWheater para
 mostar los datos de la ciudad ingresada por el usuario
-      </p>
+      </Text>
     </Stack>
   </CardBody>
   <CardFooter>
-  <a href="https://danielfranchi555.github.io/App-Weather/"> <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button></a> 
+    <ButtonGroup spacing='1'>
+     <Button bg='#455d7a'color='white' w='90px' size='md'>Demo</Button>
+    </ButtonGroup>
   </CardFooter>
 </Card>
-
      </WrapItem> 
                   </a>
         

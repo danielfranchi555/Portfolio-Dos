@@ -1,5 +1,5 @@
 import { Box, Center, Image, Wrap, WrapItem } from '@chakra-ui/react'
-import foto from '../../img/about-me.png'
+import foto from '../../img/about-me.jpg'
 import React from 'react'
 
 const SectionTres = () => {
@@ -14,7 +14,7 @@ const SectionTres = () => {
                       <Wrap   spacing='30px' justify='center' style={{width:'900px'}} >
     <WrapItem >
         <Center m='10px' >
-            <Image src={foto} style={{width:'200px'}} alt='Dan Abramov' />
+            <Image src={foto} style={{width:'400px'}} alt='Dan Abramov' />
         </Center>
    </WrapItem>
          <WrapItem style={{ width:'300px'}}>

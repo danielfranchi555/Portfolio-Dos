@@ -1,4 +1,4 @@
-import {Box,Button,ButtonGroup,Card,CardBody,  CardFooter, Center, Divider, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
+import {Box,Button,ButtonGroup,Card,CardBody,  CardFooter, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import ecommerce from '../../img/ecommerce.png'
 import appClima from '../../img/app-clima.png'
 import movieApp from '../../img/movie-app.png'
@@ -11,7 +11,7 @@ import './SectionDos.scss'
 
 const SectionDos = () => {
   return (
-    <Box bg='#d3d6db' id='proyectos' style={{display:'flex',flexDirection:'column',marginTop:'10px',marginBottom:'20px' ,padding:'30px'}}>
+    <Box className='section-dos-container'  id='proyectos' style={{display:'flex',flexDirection:'column',marginTop:'10px',marginBottom:'20px' ,padding:'30px'}}>
             <Box style={{margin:'auto',marginTop:'60px'}}>
         <h1 style={{fontSize:'40px',fontWeight:'600',color:'#455d7a'}}>Proyectos</h1>
         </Box> 
@@ -119,7 +119,7 @@ Firebase como base de datos y Authentication
       <Text h='100px'>
       App Ecommerce consumiendo un Api de
 productos donde el cliente puede realizar una
-compra satisfactoriamente utilizando UseContext
+compra satisfactoriamente
 
       </Text>
     </Stack>

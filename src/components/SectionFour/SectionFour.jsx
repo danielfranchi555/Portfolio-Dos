@@ -13,7 +13,7 @@ import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading,
 
 const SectionFour = () => {
   return (
-    <Box bg='#d3d6db' id='skills' style={{marginTop:'150px',marginBottom:'100px',height:'400px'}}>
+    <Box bg='#d3d6db' id='skills' style={{ backgroundColor:'linearGradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%)',marginTop:'150px',marginBottom:'100px',height:'400px'}}>
        <div style={{display:'flex',justifyContent:'center'}}>
           <h1   style={{fontSize:'40px',color:'#455d7a',fontWeight:'600',padding:'20px'}}>Skills</h1>  
         </div>

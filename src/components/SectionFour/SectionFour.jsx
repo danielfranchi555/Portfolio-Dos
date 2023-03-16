@@ -8,7 +8,6 @@ import css from '../../img/css.png'
 import html from '../../img/html.png'
 import chakra from '../../img/chakra.png'
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
 import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react'
 
 const SectionFour = () => {

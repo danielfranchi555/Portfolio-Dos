@@ -4,8 +4,6 @@ import appClima from '../../img/app-clima.png'
 import movieApp from '../../img/movie-app.png'
 import crud from '../../img/crud.png'
 import chat from '../../img/chat.png'
-import React from 'react';
-import Zoom from 'react-reveal/Zoom';
 import Reveal from 'react-reveal/Reveal';
 import './SectionDos.scss'
 

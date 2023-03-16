@@ -5,6 +5,7 @@ import movieApp from '../../img/movie-app.png'
 import crud from '../../img/crud.png'
 import chat from '../../img/chat.png'
 import Reveal from 'react-reveal/Reveal';
+import Zoom from 'react-reveal/Zoom'
 import './SectionDos.scss'
 
 const SectionDos = () => {

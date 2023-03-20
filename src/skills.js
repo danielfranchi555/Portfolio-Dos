@@ -1,12 +1,12 @@
 
 import js from '../src/img/js.png'
-import react from '.../src/img/react.png'
-import firebase from '.../src/img/firebase.png'
-import html from '.../src/img/html.png'
-import css from '.../src/img/css.png'
-import sass from '.../src/img/sass.png'
-import bootstrap from '.../src/img/bootstrap.png'
-import  chakra  from '.../src/img/chakra.png'
+import react from '../src/img/react.png'
+import firebase from '../src/img/firebase.png'
+import html from '../src/img/html.png'
+import css from '../src/img/css.png'
+import sass from '../src/img/sass.png'
+import bootstrap from '../src/img/bootstrap.png'
+import  chakra  from '../src/img/chakra.png'
 
 
 const skills = [{

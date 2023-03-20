@@ -4,7 +4,7 @@ import linkedin from '../../img/linkedin.png'
 const Footer = () => {
   return (
     <div>
-            <div className=' py-5 mt-5 ' style={{width:'100%',backgroundColor:'#222831'}}>
+            <div className=' py-5  ' style={{width:'100%',backgroundColor:'#222831'}}>
         <div className='d-flex' style={{justifyContent:'center',borderTop:'solid 1px gray',borderBottom:'solid 1px gray'}}>
             <div className='px-3 py-4'>
               <a href="https://github.com/danielfranchi555">

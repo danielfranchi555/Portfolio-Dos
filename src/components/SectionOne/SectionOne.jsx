@@ -1,51 +1,69 @@
-import { Box, Wrap, WrapItem, Button } from "@chakra-ui/react";
-import fotoCv from "../../img/foto-cv.jpg"
+import { Box, Wrap, WrapItem, Button, Image, Text, Center } from "@chakra-ui/react";
+import fotoCv from "../../img/foto-cv.png"
 import React from "react";
 import linkedin from '../../img/linkedin.png'
 import github from '../../img/github.png'
 import './SectionOne.scss'
+import  Zoom  from "react-reveal/Zoom";
 
 const SectionOne = () => {
   return (
     
-      <Wrap bg=' #ffffff' style={{display:'flex',justifyContent:'center',alignItems:'center'}} justify='center' mt='80px' height='600px' spacing="50px">
-      <WrapItem>
-        <Box>
-         <img src={fotoCv} style={{width:'250px',borderRadius:'100px',height:'auto'}} alt="" />
-        </Box>
-      </WrapItem>
-      <WrapItem
-        maxW={{ base: "290px", sm: "300px" }}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Box>
-        <h1 style={{fontSize:'40px',color:'black',textAlign:'center'}} >Bienvenido/a  a mi portfolio</h1>
-        </Box>
-        <Box>
-          <p className="animate__animated animate__backInDown" style={{ textAlign: "center",fontWeight:'800', padding: "10px", color:'#455d7a' }}> FrontEnd/React Developer </p>
-        </Box>
-       <Box style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'10px'}}>
-            <Button bg='#d3d6db' color='black'>Contact me</Button>
-            
-            <Box>
-              <a href="https://www.linkedin.com/in/daniel-franchi-409359238/">
-                          <img src={linkedin} style={{width:'30px'}} alt="" />
-              </a>
-          </Box>
-          <Box>
-            <a href="https://github.com/danielfranchi555">
-            <img src={github} style={{width:'30px'}} alt="" />
-            </a>
-          </Box>
-        </Box>
-      </WrapItem>
-    </Wrap>
+     <div>
+    
+       <div className=" " style={{width:'100%',height:'500px', display:'flex',justifyContent:'center',alignItems:'center', backgroundColor:'#455d7a'}}>
+     <div className="row" >
+      <div className="col-md " style={{display:'flex',justifyContent:'center'}}>
+        <Zoom>
+            <div>
+        <Image
+  borderRadius='50px'
+  objectFit='cover'
+  boxSize='250px'
+  maxW={{base:'200px',md:'300px'}}
+  maxH={{base:'200px',md:'500px'}}
+  src={fotoCv}
+  alt='Dan Abramov'
+  bg='#e3e3e3'
+ />        </div>
+        </Zoom>
+      </div>
+      <Zoom>
+        <div className="col-md"style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}} >
+
+        <div style={{width:'400px',display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center',margin:'10px'}}>
+          <div>
+        <h1 style={{fontSize:'30px',margin:'5px',color:'white'}}>Bienvenidos a mi Portfolio</h1>
+        </div>
+        <div>
+        <p style={{color:'#f95959',fontWeight:'800'}}>Frontend/React js</p>
+        </div>
+          
+        </div>
+
+        <div style={{display:'flex',width:'auto',justifyContent:'center',gap:'20px',marginTop:'10px'}}>
+        <div>
+          <Button>Contactame</Button>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/daniel-franchi-409359238/">
+           <img src={linkedin} style={{width:'40px'}} alt="" />
+          </a>
+         
+        </div>
+        <div>
+          <a href="https://github.com/danielfranchi555">
+                      <img src={github} alt="" style={{width:'40px'}} />
+          </a>
+        </div>
+        </div>
+      </div>
+      </Zoom>
       
+     </div>
+    </div>
+   
+     </div>
     
     
   );

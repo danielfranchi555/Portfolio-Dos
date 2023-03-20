@@ -9,8 +9,8 @@ import './NavBar.scss'
 
 const NavBar = () => {
   return (
-    <div >
-    <Navbar fixed='top' style={{backgroundColor:' white'}} expand="lg">
+    <div style={{marginBottom:'0px'}} >
+    <Navbar  style={{backgroundColor:' #e3e3e3'}} expand="lg">
       <Container >
         <Navbar.Brand href="#home"  style={{color:'#455d7a',fontWeight:'800'}}>Daniel Franchi</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,7 +19,7 @@ const NavBar = () => {
             <Nav.Link className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#sobreMi">Sobre mi</Nav.Link>
             <Nav.Link  className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#proyectos">Proyectos</Nav.Link >
             <Nav.Link className='nav-item hover' style={{color:'black',fontWeight:'500',marginTop:'4px'}} href="#skills">Tecnologias</Nav.Link>
-           <Center> <a  style={{color:'black',fontWeight:'500'}} href={pdf} download="Curriculum">  <Button size='sm' bg='#455d7a' color='white'> Descargar Cv</Button> </a> </Center> 
+           <Center> <a  style={{color:'black',fontWeight:'500'}} href={pdf} download="Curriculum">  <Button size='sm' bg='#f95959' color='white'> Descargar Cv</Button> </a> </Center> 
           </Nav>
         </Navbar.Collapse>
       </Container>

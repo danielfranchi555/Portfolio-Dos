@@ -28,37 +28,37 @@ const SectionFIve = () => {
 
   
   return (
-    <Box  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}} >
+    <Box  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',backgroundColor:'#455d7a',width:'100%'}} >
        <Box>
           <Center>
-            <h1 style={{fontSize:'40px',fontWeight:'600',color:'#455d7a'}}> Contact me</h1>
+            <h1 style={{fontSize:'40px',fontWeight:'600',color:'white',margin:'10px'}}> Contact me</h1>
           </Center>
           </Box>
         <form onSubmit={handleSubmit}  mt='3rem' 
          maxW={{ base: '50%', sm: '400px' }}
         >      
   <FormLabel >Name</FormLabel>
-  <Input required variant='filled' placeholder='Name' name="Name" id="Name" type='text' />
+  <Input mb='10px' required variant='filled' placeholder='Name' name="Name" id="Name" type='text' />
   <ValidationError 
         prefix="Name" 
         field="name"
         errors={state.errors}
       />
   <FormLabel >Email </FormLabel>
-  <Input required variant='filled' placeholder='Email' name="Email" id="email" type='email' />
+  <Input mb='10px' required variant='filled' placeholder='Email' name="Email" id="email" type='email' />
   <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
   <FormLabel >Message</FormLabel>
-  <Input required type="text" placeholder='Message' name="message" id="message"  variant='filled' h='150px' />
+  <Input mb='10px' required type="text" placeholder='Message' name="message" id="message"  variant='filled' h='150px' />
   <ValidationError 
         prefix="Message" 
         field="message"
         errors={state.errors}
       />
-  <Button disabled={state.submitting} type='submit' mt='20px' bg='#455d7a' color='white'> Submit </Button>
+  <Button disabled={state.submitting} type='submit' mt='20px'  mb='10px' bg='#3a3939' color='white'> Submit </Button>
 </form>
     </Box>
   

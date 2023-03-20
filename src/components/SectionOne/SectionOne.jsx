@@ -11,7 +11,7 @@ const SectionOne = () => {
     
      <div>
     
-       <div className=" " style={{width:'100%',height:'500px', display:'flex',justifyContent:'center',alignItems:'center', backgroundColor:'#455d7a'}}>
+       <div className="container " style={{maxWidth:'100%',height:'500px', display:'flex',justifyContent:'center',alignItems:'center', backgroundColor:'#455d7a'}}>
      <div className="row" >
       <div className="col-md " style={{display:'flex',justifyContent:'center'}}>
         <Zoom>
@@ -53,6 +53,7 @@ const SectionOne = () => {
         </div>
         <div>
           <a href="https://github.com/danielfranchi555">
+
                       <img src={github} alt="" style={{width:'40px'}} />
           </a>
         </div>

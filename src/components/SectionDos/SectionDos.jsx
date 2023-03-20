@@ -46,7 +46,7 @@ const SectionDos = () => {
        
       </Box>
      
-  <Wrap  justify='center' h='800px'  >
+  <Wrap  justify='center' h='100%'  >
       {proyectos.map((item)=>(    
             <WrapItem>
               <Zoom>

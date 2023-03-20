@@ -1,8 +1,9 @@
+import ecommerce from '../src/img/ecommerce-dos.png'
 
  const proyectos = [
     {
          id: 1,
-         img:'../src/img/ecommerce-dos.png',
+         img:ecommerce,
          title:"Ecommerce",
          description:'App Ecommerce consumiendo un Api de productos donde el cliente puede realizar una compra satisfactoriamente utilizando UseContext',
          link:'https://ecommerce-vite.vercel.app/',

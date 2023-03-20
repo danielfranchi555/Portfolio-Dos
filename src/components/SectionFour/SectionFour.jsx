@@ -17,7 +17,7 @@ const SectionFour = () => {
       <Card bg='white'  maxW='sm'>
   <CardBody className='bg' borderRadius='fill'>
     <Image
-    w='80px'
+      w='80px'
       src={item.img}
       alt='Green double couch with wooden legs'
       borderRadius='lg'

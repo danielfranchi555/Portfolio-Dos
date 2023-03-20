@@ -6,7 +6,7 @@ import html from '.../src/img/html.png'
 import css from '.../src/img/css.png'
 import sass from '.../src/img/sass.png'
 import bootstrap from '.../src/img/bootstrap.png'
-import  chakra  from '@chakra-ui/react'
+import  chakra  from '.../src/img/chakra.png'
 
 
 const skills = [{

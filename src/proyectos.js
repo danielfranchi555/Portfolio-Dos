@@ -1,4 +1,8 @@
 import ecommerce from '../src/img/ecommerce-dos.png'
+import crud from '../src/img/crud-dos.png'
+import chat from '../src/img/chat-dos.png'
+import movie from '../src/img/movie-app-dos.png'
+import clima from '../src/img/app-clima-dos.png'
 
  const proyectos = [
     {
@@ -11,7 +15,7 @@ import ecommerce from '../src/img/ecommerce-dos.png'
        },
        {
         id:2,
-         img:'../src/img/crud-dos.png',
+         img:crud,
          title:"Crud-Firebase",
          description:'Este proyecto es una aplicación web que utiliza React y Firebase Firestore como Base de Datos para Insertar, Actualizar y Eliminar productos',
          link:'https://crud-firebase-azure.vercel.app/',
@@ -20,7 +24,7 @@ import ecommerce from '../src/img/ecommerce-dos.png'
      
       {
          "id":"3",
-         "img": '../src/img/chat-dos.png',
+         "img": chat,
          "title":"Chat-App",
          description:'App creada con React+Vite utilizando Firebase como base de datos y Authentication',
          link:'https://chat-app-liart-phi.vercel.app/',
@@ -30,7 +34,7 @@ import ecommerce from '../src/img/ecommerce-dos.png'
        },
        {
         "id":"4",
-         "img":'../src/img/movie-app-dos.png',
+         "img":movie,
          "title":"Movies-App",description:'App de peliculas con Authentication de Auth0 para el inicio de Sesion y consumiendo la Api de TMDB para mostrar el trailer y detalle de cada pelicula',
          link:'https://app-movies-co61.vercel.app/',
          Code:'https://github.com/danielfranchi555/danielfranchi555-App-Movies.git'
@@ -38,7 +42,7 @@ import ecommerce from '../src/img/ecommerce-dos.png'
        },
        {
         "id":"5",
-         "img":'../src/img/app-clima-dos.png',
+         "img":clima,
          "title":"App-Wheater",
          description:'Aplicacion consumiendo la Api de OpenWheater paramostar los datos de la ciudad ingresada por el usuario',
          link:' https://danielfranchi555.github.io/App-Weather/',

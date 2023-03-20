@@ -29,7 +29,7 @@ const SectionTres = () => {
    </div>
    <div className='col-md' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
     <Fade bottom>
-      <Text style={{width:'500px',margin:'10px'}} color='white' fontSize={{base:'18px', md:'20px'}}>
+      <Text style={{margin:'30px'}} width={{base:'300px',md:'400px'}} color='white' fontSize={{base:'18px', md:'20px'}}>
     Mi nombre es <span style={{color:'#f95959'}}>Daniel Franchi</span> tengo 22 años
 actualmente vivo en Córdoba, Argentina.
 Me encuentro en la búsqueda de mi primer oportunidad laboral.

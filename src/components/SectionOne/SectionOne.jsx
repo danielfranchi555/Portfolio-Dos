@@ -43,7 +43,7 @@ const SectionOne = () => {
 
         <div style={{display:'flex',width:'auto',justifyContent:'center',gap:'20px',marginTop:'10px'}}>
         <div>
-          <Button>Contactame</Button>
+         <a href="#formulario"><Button>Contactame</Button></a> 
         </div>
         <div>
           <a href="https://www.linkedin.com/in/daniel-franchi-409359238/">

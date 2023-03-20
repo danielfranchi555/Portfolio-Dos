@@ -9,7 +9,7 @@ import clima from '../src/img/app-clima-dos.png'
          id: 1,
          img:ecommerce,
          title:"Ecommerce",
-         description:'App Ecommerce consumiendo un Api de productos donde el cliente puede realizar una compra satisfactoriamente utilizando UseContext',
+         description:'App Ecommerce utilizando como Base de Datos Firebase',
          link:'https://ecommerce-vite.vercel.app/',
          Code:'https://github.com/danielfranchi555/Ecommerce-Vite.git'
        },

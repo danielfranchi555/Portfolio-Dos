@@ -67,13 +67,11 @@
     transform: translateY(0);
 }
 
-.container-dos .card-dos .face.face2 .content p{
-    margin: 0;
-    padding: 0;
-}
+
 
 .container-dos .card-dos .face.face2 .content a{
-    margin: 15px 0 0;
+    margin: 5px;
+
     display:  inline-block;
     text-decoration: none;
     font-weight: 900;
@@ -83,6 +81,6 @@
 }
 
 .container-dos .card-dos .face.face2 .content a:hover{
-    background: #e82020;
+    background: #f95959;
     color: #fff;
 }

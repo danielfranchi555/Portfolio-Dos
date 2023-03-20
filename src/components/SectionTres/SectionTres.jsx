@@ -9,8 +9,8 @@ const SectionTres = () => {
   return (
   <>
     
-  <div className='mb-5' id='sobreMi'  style={{display:'flex',width:'100%',justifyContent:'center',alignItems:'center',height:'500px',gap:'20px',backgroundColor:'#455d7a',flexDirection:'column'}}>
-    <div className='row' style={{color:'white',fontSize:'40px',marginTop:'20px'}}> <h1>Sobre Mi</h1></div>
+  <div  id='sobreMi'  style={{display:'flex',width:'100%',justifyContent:'center',alignItems:'center',height:'500px',gap:'20px',backgroundColor:'#455d7a',flexDirection:'column'}}>
+    <div className='row' style={{color:'white',fontSize:'40px'}}> <h1>Sobre Mi</h1></div>
    <div className='row'  >
    <div className='col-md' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
     <div  >
@@ -29,7 +29,7 @@ const SectionTres = () => {
    </div>
    <div className='col-md' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
     <Fade bottom>
-      <Text style={{width:'300px',margin:'10px'}} color='white' fontSize={{base:'18px', md:'20px'}}>
+      <Text style={{width:'500px',margin:'10px'}} color='white' fontSize={{base:'18px', md:'20px'}}>
     Mi nombre es <span style={{color:'#f95959'}}>Daniel Franchi</span> tengo 22 años
 actualmente vivo en Córdoba, Argentina.
 Me encuentro en la búsqueda de mi primer oportunidad laboral.

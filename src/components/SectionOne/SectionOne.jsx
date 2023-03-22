@@ -46,13 +46,13 @@ const SectionOne = () => {
          <a href="#formulario"><Button>Contactame</Button></a> 
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/daniel-franchi-409359238/">
+          <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
            <img src={linkedin} style={{width:'40px'}} alt="" />
           </a>
          
         </div>
         <div>
-          <a href="https://github.com/danielfranchi555">
+          <a href="https://github.com/danielfranchi555"target="_blank">
 
                       <img src={github} alt="" style={{width:'40px'}} />
           </a>

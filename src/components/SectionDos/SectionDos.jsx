@@ -63,8 +63,8 @@ const SectionDos = () => {
 
 <div class="content">
                                 <p>{item.description}</p>
-                                    <a href={item.link}>Deploy</a>
-                                    <a href={item.Code}>Github</a>
+                                    <a href={item.link} target="_blank">Deploy</a>
+                                    <a href={item.Code} target="_blank">Github</a>
 
                             </div>
                             

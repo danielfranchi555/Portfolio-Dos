@@ -15,19 +15,21 @@ const SectionFour = () => {
   {skills.map((item)=>(
     <Box >
       <Center>
-      <Card bg='white'  maxW='sm'>
-     <Fade right >   
+       <Fade right > 
+      <Card bg='white'  maxW='sm'>   
   <CardBody className='bg' borderRadius='fill'>
           <Image
-      w='80px'
+      w='50px'
       src={item.img}
+      maxW={{base:'30px',md:'50px'}}
       alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
-    
+  
   </CardBody>
-  </Fade>
+
 </Card>
+</Fade>
       </Center>
     </Box>
   ))}

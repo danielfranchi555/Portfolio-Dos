@@ -18,7 +18,7 @@ import clima from '../src/img/app-clima-dos.png'
          img:crud,
          title:"Crud-Firebase",
          description:'Este proyecto es una aplicación web que utiliza React y Firebase Firestore como Base de Datos para Insertar, Actualizar y Eliminar productos',
-         link:'https://crud-firebase-azure.vercel.app/',
+         link:'https://crud-firebase-six.vercel.app/',
          Code:'https://github.com/danielfranchi555/Crud-Firebase.git'
        },
      

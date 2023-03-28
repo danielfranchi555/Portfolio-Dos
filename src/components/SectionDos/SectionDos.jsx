@@ -35,9 +35,11 @@ const SectionDos = () => {
         padding: "30px",
         justifyContent:'center',
         alignItems:'center',
+        border:'solid 1px'
+      
       }}
     >
-      <Box>
+      <Box >
         <Center>
            <h1 style={{ fontSize: "40px", fontWeight: "600", color: "#455d7a" }}>
           Proyectos
@@ -46,7 +48,7 @@ const SectionDos = () => {
        
       </Box>
      
-  <Wrap  justify='center' h='100%'  >
+  <Wrap border='solid #e3e3e3' justify='center' w='100%' height={{base:'100%',md:'800px'}}  >
       {proyectos.map((item)=>(    
             <WrapItem>
               <Zoom>

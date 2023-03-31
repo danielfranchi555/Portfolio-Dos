@@ -25,18 +25,18 @@ import clima from '../src/img/app-clima-dos.png'
       {
          "id":"3",
          "img": chat,
-         "title":"Chat-App",
-         description:'App creada con React+Vite utilizando Firebase como base de datos y Authentication',
-         link:'https://chat-app-liart-phi.vercel.app/',
-         Code:'https://github.com/danielfranchi555/Chat-App.git'
+         "title":"Movies-App",
+         description:'App de peliculas con Authentication de Auth0 para el inicio de Sesion y consumiendo la Api de TMDB para mostrar el trailer y detalle de cada pelicula',
+         link:'https://tmdb-api-theta.vercel.app/',
+         Code:'https://github.com/danielfranchi555/danielfranchi555-App-Movies.git'
 
 
        },
        {
         "id":"4",
          "img":movie,
-         "title":"Movies-App",description:'App de peliculas con Authentication de Auth0 para el inicio de Sesion y consumiendo la Api de TMDB para mostrar el trailer y detalle de cada pelicula',
-         link:'https://app-movies-co61.vercel.app/',
+         "title":"Chat-App",description:'App creada con Vite utilizando firebase como Base De Datos y Authentication',
+         link:'https://tmdb-api-theta.vercel.app/',
          Code:'https://github.com/danielfranchi555/danielfranchi555-App-Movies.git'
 
        },

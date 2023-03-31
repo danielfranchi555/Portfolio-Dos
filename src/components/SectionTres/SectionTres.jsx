@@ -1,4 +1,4 @@
-import { Box, Center, Image, Text, Wrap, WrapItem } from '@chakra-ui/react'
+import { Box, Center, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import about from '../../img/about-me-dos.png'
 import Fade from 'react-reveal/Fade';
 
@@ -7,43 +7,33 @@ import React from 'react'
 
 const SectionTres = () => {
   return (
-  <>
-    
-  <div  id='sobreMi'  style={{display:'flex',width:'100%',justifyContent:'center',alignItems:'center',height:'500px',gap:'20px',backgroundColor:'#455d7a',flexDirection:'column'}}>
-    <div className='row' style={{color:'white',fontSize:'40px'}}> <h1>Sobre Mi</h1></div>
-   <div className='row'  >
-   <div className='col-md' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-    <div  >
-      <div>
-              <Image
-    objectFit='cover'
+      <Stack id='sobreMi' h={{base:'auto',md:'300px'}} bg='#455d7a' w='100%'>
+       <Fade left>  
+    <Center>
+    <Heading p={1} color='white' >Sobre mi</Heading>
+    </Center>
+   <Stack  p={6} justify='center' align='center'  direction={['column', 'row']} h= {{base:'auto',md:'220px'}} w='auto'>
+   <Image
+     boxSize={{base:'150px',md:'200px'}}
+    objectFit='contain'
     src={about}
-    maxW={{base:'100px', md:'200px'}}
     alt='Dan Abramov'
+    p={6}
   />
-      </div>
-    
-      
   
-    </div>
-   </div>
-   <div className='col-md' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-    <Fade bottom>
-      <Text style={{margin:'30px'}} width={{base:'300px',md:'400px'}} color='white' fontSize={{base:'18px', md:'20px'}}>
-    Mi nombre es <span style={{color:'#f95959'}}>Daniel Franchi</span> tengo 22 años
+     <Text fontSize='20px' color='white' w= {{base:'auto',md:'600px'}} h='auto' align='center' p={3}>
+  Mi nombre es <span style={{color:'#f95959'}}>Daniel Franchi</span> tengo 22 años
 actualmente vivo en Córdoba, Argentina.
 Me encuentro en la búsqueda de mi primer oportunidad laboral.
 Estoy con muchas ganas de ser el mejor en lo que hago y encontrar ese lugar donde pueda contribuir
 con mi experiencia y conocimiento!
-    </Text>
-    </Fade>
-    
+  </Text>
+ 
+   </Stack>
+    </Fade> 
+  </Stack>
+  
 
-   </div>
-   </div>
-   
-   </div>
-  </>
    
     
   )

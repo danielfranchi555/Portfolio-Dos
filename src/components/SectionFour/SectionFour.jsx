@@ -6,7 +6,7 @@ import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Center, Divider, 
 
 const SectionFour = () => {
   return (
-    <Box id='skills' style={{marginBottom:'50px'}}>
+    <Box id='skills' >
     <Center>
           <Text fontSize='50px'>Skills</Text>
     </Center>

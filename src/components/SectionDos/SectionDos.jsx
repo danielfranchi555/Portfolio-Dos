@@ -17,7 +17,6 @@ import {
   Wrap,
   WrapItem,
 } from "@chakra-ui/react";
-import Reveal from "react-reveal/Reveal";
 import Zoom from "react-reveal/Zoom";
 import proyectos from '../../proyectos'
 import "./SectionDos.scss";
@@ -35,8 +34,7 @@ const SectionDos = () => {
         padding: "30px",
         justifyContent:'center',
         alignItems:'center',
-        border:'solid 1px'
-      
+        height:'100%'      
       }}
     >
       <Box >
@@ -48,7 +46,7 @@ const SectionDos = () => {
        
       </Box>
      
-  <Wrap border='solid #e3e3e3' justify='center' w='100%' height={{base:'100%',md:'800px'}}  >
+  <Wrap border='solid #e3e3e3' justify='center' w='100%' height={{base:'100%',md:'auto'}}  >
       {proyectos.map((item)=>(    
             <WrapItem>
               <Zoom>

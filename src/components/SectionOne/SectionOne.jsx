@@ -53,16 +53,12 @@ const SectionOne = () => {
           Bienvenido/a a mi portfolio
         </Text>
         <Stack bg='blue' width='auto' direction="row" >
-          <Tag
-            size="lg"
-            color="white"
-            colorScheme="teal"
-            variant="outline"
-            borderRadius="full"
-          >
-            <Avatar src={react} w="auto" h="20px" ml={0} mr={2} />
-            <TagLabel fontWeight="900">Frontend/React Js</TagLabel>
-          </Tag>
+           
+           <Box bg='blue' w='200px' h='30px'>
+            <Center>
+             <Text color='white'> Frontend/React js</Text>
+            </Center>
+           </Box>
     {/*       <Tag bg="none"size={{base:'xs',md:'lg'}}>
             <a href="https://github.com/danielfranchi555" target="_blank">
               <Avatar src={github} w="auto" h="34px" />

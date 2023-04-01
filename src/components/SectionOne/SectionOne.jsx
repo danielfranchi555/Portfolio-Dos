@@ -33,7 +33,7 @@ const SectionOne = () => {
            <Box w={{base:"auto",md:'300px'}}  boxShadow="2xl" p="6" rounded="md" h="300px">
         <Image
           borderRadius="10px"
-          boxSize="100%"
+          boxSize={{base:'210px',md:'100%'}}
           objectFit="cover"
           src={fotoCv}
           bg="#222831"

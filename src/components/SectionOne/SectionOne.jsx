@@ -16,7 +16,7 @@ import React from "react";
 import linkedin from "../../img/linkedin.png";
 import github from "../../img/github-2.png";
 import react from "../../img/logo-react.png";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const SectionOne = () => {
   return (
@@ -25,11 +25,12 @@ const SectionOne = () => {
       py={{ base: "20px", md: "0px" }}
       justify="center"
       align="center"
-      direction={["column", "row"]}
+      direction={["column","column", "row"]}
       w={{ base: "auto", md: "auto" }}
       h={{ base: "auto", md: "500px" }}
     >
-      <Box w="300px" boxShadow="2xl" p="6" rounded="md" h="300px">
+      <Fade>
+           <Box w="300px" boxShadow="2xl" p="6" rounded="md" h="300px">
         <Image
           borderRadius="10px"
           boxSize="100%"
@@ -38,6 +39,8 @@ const SectionOne = () => {
           bg="#222831"
         />
       </Box>
+      </Fade>
+   <Fade>
       <Stack
       spacing='10px'
         align="center"
@@ -94,6 +97,8 @@ const SectionOne = () => {
           contribuir con mi experiencia y conocimiento!
         </Text>
       </Stack>
+   </Fade>
+    
     </Stack>
   );
 };

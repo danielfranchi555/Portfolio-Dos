@@ -3,13 +3,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Fade from 'react-reveal/Fade'
 import { NavLink } from 'react-router-dom';
 import cv from '../../../src/Curriculum Daniel-Franchi (2).pdf'
 import './NavBar.scss'
 
 const NavBar = () => {
   return (
-    <div style={{marginBottom:'0px'}} >
+    <Fade top>
+          <div style={{marginBottom:'0px'}} >
     <Navbar  style={{backgroundColor:' #222831'}} expand="lg">
       <Container >
         <Navbar.Brand href="#home"  style={{color:'White',fontWeight:'800'}}>Daniel Franchi</Navbar.Brand>
@@ -25,6 +27,8 @@ const NavBar = () => {
       </Container>
     </Navbar>
     </div>
+    </Fade>
+
   )
 }
 

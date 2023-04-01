@@ -52,27 +52,23 @@ const SectionOne = () => {
           {" "}
           Bienvenido/a a mi portfolio
         </Text>
-        <Stack bg='blue' width='auto' direction="row" >
+        <Stack width='auto' direction="row" >
            
-           <Box bg='blue' w='200px' h='30px'>
-            <Center>
+           <Stack border='solid 1px teal' borderRadius='10px' w='170px' justify='center' h='40px'>
+            <Center >
+            <Avatar name='Dan Abrahmov' size='xs' src={react} />
              <Text color='white'> Frontend/React js</Text>
             </Center>
-           </Box>
-    {/*       <Tag bg="none"size={{base:'xs',md:'lg'}}>
-            <a href="https://github.com/danielfranchi555" target="_blank">
-              <Avatar src={github} w="auto" h="34px" />
-            </a>
-          </Tag>
+           </Stack>
 
-          <Tag bg="none" size={{base:'xs',md:'lg'}}>
-            <a
-              href="https://www.linkedin.com/in/daniel-franchi-409359238/"
-              target="_blank"
-            >
-              <Avatar w="auto" h="35px" src={linkedin} />
+           <Stack justify='center' align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
+            <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
+                          <Avatar name='Dan Abrahmov' size='sm'  src={linkedin} />
             </a>
-          </Tag> */}
+            <a href="https://github.com/danielfranchi555" target="_blank">
+            <Avatar name='Dan Abrahmov' size='sm' src={github} />
+            </a>
+           </Stack>
         </Stack>
 
         <Text

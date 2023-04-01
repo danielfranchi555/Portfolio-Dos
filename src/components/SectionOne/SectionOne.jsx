@@ -52,7 +52,7 @@ const SectionOne = () => {
           {" "}
           Bienvenido/a a mi portfolio
         </Text>
-        <Stack gap='0px'  direction="row" spacing={0}>
+        <Stack gap='5px'  direction="row" spacing={0}>
           <Tag
             size="lg"
             color="white"
@@ -63,13 +63,13 @@ const SectionOne = () => {
             <Avatar src={react} w="auto" h="20px" ml={-1} mr={2} />
             <TagLabel fontWeight="900">Frontend/React Js</TagLabel>
           </Tag>
-          <Tag bg="none" size="lg">
+          <Tag bg="none"size={{base:'xs',md:'lg'}}>
             <a href="https://github.com/danielfranchi555" target="_blank">
               <Avatar src={github} w="auto" h="34px" />
             </a>
           </Tag>
 
-          <Tag bg="none" size="lg">
+          <Tag bg="none" size={{base:'xs',md:'lg'}}>
             <a
               href="https://www.linkedin.com/in/daniel-franchi-409359238/"
               target="_blank"

@@ -58,7 +58,7 @@ const SectionFIve = () => {
         field="message"
         errors={state.errors}
       />
-  <Button disabled={state.submitting} type='submit' mt='20px'  mb='10px' bg='#3a3939' color='white'> Submit </Button>
+  <Button disabled={state.submitting} type='submit' mt='20px'  mb='10px' color='teal' variant='outline'> Submit </Button>
 </form>
     </Box>
   

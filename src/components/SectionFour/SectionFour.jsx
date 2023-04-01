@@ -6,9 +6,9 @@ import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Center, Divider, 
 
 const SectionFour = () => {
   return (
-    <Box id='skills' >
+    <Box id='skills' bg='#222831' >
     <Center>
-          <Text fontSize='50px'>Skills</Text>
+          <Text fontSize='50px' color='white'>Skills</Text>
     </Center>
     <Center m>
       <SimpleGrid w='700px' h='300px' columns={4}  spacing={2}>

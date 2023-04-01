@@ -7,7 +7,7 @@ import React from 'react'
 
 const SectionTres = () => {
   return (
-      <Stack id='sobreMi' h={{base:'auto',md:'300px'}} bg='#455d7a' w='100%'>
+      <Stack id='sobreMi'  h={{base:'auto',md:'300px'}} bg='#393e46' w='100%'>
        <Fade left>  
     <Center>
     <Heading p={1} color='white' >Sobre mi</Heading>
@@ -22,7 +22,7 @@ const SectionTres = () => {
   />
   
      <Text fontSize='20px' color='white' w= {{base:'auto',md:'600px'}} h='auto' align='center' p={3}>
-  Mi nombre es <span style={{color:'#f95959'}}>Daniel Franchi</span> tengo 22 años
+  Mi nombre es <span style={{color:'#29a19c' ,fontWeight:'800'}}>Daniel Franchi</span> tengo 22 años
 actualmente vivo en Córdoba, Argentina.
 Me encuentro en la búsqueda de mi primer oportunidad laboral.
 Estoy con muchas ganas de ser el mejor en lo que hago y encontrar ese lugar donde pueda contribuir

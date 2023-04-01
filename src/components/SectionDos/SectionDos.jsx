@@ -1,16 +1,12 @@
 import {
-  Avatar,
-  Box,
   Button,
   ButtonGroup,
   Card,
   CardBody,
   CardFooter,
-  CardHeader,
   Center,
-  Flex,
+  Divider,
   Heading,
-  IconButton,
   Image,
   Stack,
   Text,
@@ -23,66 +19,52 @@ import "./SectionDos.scss";
 
 const SectionDos = () => {
   return (
-    <Box
-      className="container-dos"
-      id="proyectos"
-      style={{
-        backgroundColor:'#e3e3e3',
-        width:'100%',
-        display: "flex",
-        flexDirection: "column",       
-        padding: "30px",
-        justifyContent:'center',
-        alignItems:'center',
-        height:'100%'      
-      }}
-    >
-      <Box >
-        <Center>
-           <h1 style={{ fontSize: "40px", fontWeight: "600", color: "#455d7a" }}>
-          Proyectos
-        </h1>
-        </Center>
-       
-      </Box>
+    <Stack id="proyectos" bg='#222831'> 
+    <Center>
+      <Text fontSize='40px' color='white'>Proyectos</Text>
+    </Center>
+        <Wrap justify='center' h='auto' m='20px'>
+      {proyectos.map((item)=>(
+        <Zoom>
+             <WrapItem mb='20px' >
+               <Card  bg='#393e46' h='auto'
+    maxW='400px'>
+  <CardBody>
+    <Image
+      src={item.img}
+      objectFit='cover'
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'
+    />
+    <Stack mt='3' spacing='3'>
+      <Heading size='md' color='white'>{item.title}</Heading>
+      <Text color='white' h='60px'>
+        {item.description}
+      </Text>
+    </Stack>
+  </CardBody>
+  <Divider />
+  <CardFooter>
+    <ButtonGroup spacing='2'>
+      <a href={item.link} target="_blank" >
+         <Button size='sm' variant='outline' border='solid 1px teal'  color='#29a19c'>
+        Demo
+      </Button>
+      </a>
      
-  <Wrap border='solid #e3e3e3' justify='center' w='100%' height={{base:'100%',md:'auto'}}  >
-      {proyectos.map((item)=>(    
-            <WrapItem>
-              <Zoom>
-                 <Center  h='370px'  >
+      <Button size='sm'   variant='outline' border='solid 1px teal'  color='#29a19c'>
+        Github
+      </Button>
+    </ButtonGroup>
+  </CardFooter>
+</Card>
+         </WrapItem>
+        </Zoom>
       
-     <div class="card-dos">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src={item.img}/>
-                                <h3>{item.title}</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
+      ) )}
+  </Wrap>
+    </Stack>
 
-<div class="content">
-                                <p>{item.description}</p>
-                                    <a href={item.link} target="_blank">Deploy</a>
-                                    <a href={item.Code} target="_blank">Github</a>
-
-                            </div>
-                            
-                        </div>
-                    </div>               
-    </Center>      
-              </Zoom>
-                          
-        </WrapItem>
- 
-      ))}
- 
-      </Wrap>
-      
-   
-    
-        
-    </Box>
   );
 };
 

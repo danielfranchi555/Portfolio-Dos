@@ -1,15 +1,15 @@
-import ecommerce from '../src/img/ecommerce-dos.png'
-import crud from '../src/img/crud-dos.png'
-import chat from '../src/img/chat-dos.png'
-import movie from '../src/img/movie-app-dos.png'
-import clima from '../src/img/app-clima-dos.png'
+import ecommerce from '../src/img/ecommerce.png'
+import crud from '../src/img/crud-firebase.png'
+import chat from '../src/img/chat-app.png'
+import movie from '../src/img/tmdb-api.png'
+import clima from '../src/img/app-weather.png'
 
  const proyectos = [
     {
          id: 1,
          img:ecommerce,
-         title:"Ecommerce",
-         description:'App Ecommerce utilizando como Base de Datos Firebase',
+         title:"Ecommerce-Firebase",
+         description:'App Ecommerce utilizando como Base de Datos Firebase-Firestore',
          link:'https://ecommerce-vite.vercel.app/',
          Code:'https://github.com/danielfranchi555/Ecommerce-Vite.git'
        },
@@ -17,34 +17,35 @@ import clima from '../src/img/app-clima-dos.png'
         id:2,
          img:crud,
          title:"Crud-Firebase",
-         description:'Este proyecto es una aplicación web que utiliza React y Firebase Firestore como Base de Datos para Insertar, Actualizar y Eliminar productos',
+         description:'Crud para Agregar,Eliminar y Editar datos utilizando firebase-firestore como base de datos',
          link:'https://crud-firebase-six.vercel.app/',
          Code:'https://github.com/danielfranchi555/Crud-Firebase.git'
        },
      
       {
          "id":"3",
-         "img": chat,
+         "img":movie,
          "title":"Movies-App",
-         description:'App de peliculas con Authentication de Auth0 para el inicio de Sesion y consumiendo la Api de TMDB para mostrar el trailer y detalle de cada pelicula',
+         description:'Aplicacion de Peliculas donde podras filtrar y seleccionar la pelicula que quieras con su detalle',
          link:'https://tmdb-api-theta.vercel.app/',
-         Code:'https://github.com/danielfranchi555/danielfranchi555-App-Movies.git'
+         Code:'https://github.com/danielfranchi555/TMDB-API.git'
 
 
        },
        {
         "id":"4",
-         "img":movie,
-         "title":"Chat-App",description:'App creada con Vite utilizando firebase como Base De Datos y Authentication',
-         link:'https://tmdb-api-theta.vercel.app/',
-         Code:'https://github.com/danielfranchi555/danielfranchi555-App-Movies.git'
+         "img":chat,
+         "title":"Chat-App",
+         description:'App creada para simular un chat en tiempo real utilizando firestore y la authentication de firebase',
+         link:'https://chat-app-liart-phi.vercel.app/',
+         Code:'https://github.com/danielfranchi555/Chat-App.git'
 
        },
        {
         "id":"5",
          "img":clima,
          "title":"App-Wheater",
-         description:'Aplicacion consumiendo la Api de OpenWheater paramostar los datos de la ciudad ingresada por el usuario',
+         description:'App que devuelve el clima de la ciudad ingresada por el usuario',
          link:' https://danielfranchi555.github.io/App-Weather/',
          Code:'https://github.com/danielfranchi555/App-Weather.git'
        }

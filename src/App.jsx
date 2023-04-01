@@ -19,7 +19,6 @@ function App() {
       <div className="App" >
           <SectionOne/>    
         <SectionDos/>
-        <SectionTres/>
         <SectionFour/>
         <SectionFIve/>
       </div>

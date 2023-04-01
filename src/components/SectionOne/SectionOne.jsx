@@ -30,7 +30,7 @@ const SectionOne = () => {
       h={{ base: "auto", md: "500px" }}
     >
       <Fade>
-           <Box w="300px" boxShadow="2xl" p="6" rounded="md" h="300px">
+           <Box w={{base:"auto",md:'300px'}}  boxShadow="2xl" p="6" rounded="md" h="300px">
         <Image
           borderRadius="10px"
           boxSize="100%"
@@ -48,7 +48,7 @@ const SectionOne = () => {
         w={{ base: "100%", md: "450px" }}
         h={{ base: "320px", md: "300px" }}
       >
-        <Text align='center' fontSize={{ base: "25px", md: "35px" }} color="white">
+        <Text  fontSize={{ base: "25px", md: "35px" }} color="white">
           {" "}
           Bienvenido/a a mi portfolio
         </Text>
@@ -63,7 +63,7 @@ const SectionOne = () => {
             <Avatar src={react} w="auto" h="20px" ml={-1} mr={2} />
             <TagLabel fontWeight="900">Frontend/React Js</TagLabel>
           </Tag>
-          <Tag bg="none"size={{base:'xs',md:'lg'}}>
+    {/*       <Tag bg="none"size={{base:'xs',md:'lg'}}>
             <a href="https://github.com/danielfranchi555" target="_blank">
               <Avatar src={github} w="auto" h="34px" />
             </a>
@@ -76,7 +76,7 @@ const SectionOne = () => {
             >
               <Avatar w="auto" h="35px" src={linkedin} />
             </a>
-          </Tag>
+          </Tag> */}
         </Stack>
 
         <Text

@@ -28,7 +28,7 @@ const SectionFIve = () => {
 
   
   return (
-    <Box id='formulario'  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',backgroundColor:'#455d7a',width:'100%'}} >
+    <Box id='formulario'  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',backgroundColor:'#222831',width:'100%'}} >
        <Box>
           <Center>
             <h1 style={{fontSize:'40px',fontWeight:'600',color:'white',margin:'10px'}}> Contact me</h1>
@@ -38,21 +38,21 @@ const SectionFIve = () => {
          maxW={{ base: '50%', sm: '400px' }}
         >      
   <FormLabel color='white' fontWeight='700' >Name</FormLabel>
-  <Input mb='10px' required variant='filled' placeholder='Name' name="Name" id="Name" type='text' />
+  <Input mb='10px' required variant='outline'  placeholder='Name' color='white'  name="Name" id="Name" type='text' />
   <ValidationError 
         prefix="Name" 
         field="name"
         errors={state.errors}
       />
   <FormLabel color='white' fontWeight='700' >Email </FormLabel>
-  <Input mb='10px' required variant='filled' placeholder='Email' name="Email" id="email" type='email' />
+  <Input mb='10px' required variant='outline' placeholder='Email' name="Email" color='white'  id="email" type='email' />
   <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
   <FormLabel color='white' fontWeight='700'>Message</FormLabel>
-  <Input mb='10px' required type="text" placeholder='Message' name="message" id="message"  variant='filled' h='150px' />
+  <Input mb='10px' required type="text"  placeholder='Message' color='white' name="message" id="message"  variant='outline'  h='150px' />
   <ValidationError 
         prefix="Message" 
         field="message"

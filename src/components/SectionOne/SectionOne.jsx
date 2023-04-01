@@ -13,7 +13,7 @@ const SectionOne = () => {
 
 
     <>
-    <Stack  py={{base:'20px',md:'0px'}} justify='center' align='center' direction={['column', 'row']}  w={{base:'auto',md:'auto'}} h={{base:'auto',md:'500px'}} >
+    <Stack bg='#222831' py={{base:'20px',md:'0px'}} justify='center' align='center' direction={['column', 'row']}  w={{base:'auto',md:'auto'}} h={{base:'auto',md:'500px'}} >
     <Box w='300px'  boxShadow='2xl' p='6' rounded='md'  h='300px' >
         <Image 
          borderRadius='10px'

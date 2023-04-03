@@ -31,7 +31,7 @@ const SectionOne = () => {
       w={{ base: "auto", md: "auto" }}
       h={{ base: "auto", md: "400px" }}
     >
-      <Fade>
+      <Fade bottom>
            <Box  w={{base:"auto",md:'300px'}}  boxShadow="2xl" p="6" rounded="md" h="300px">
         <Image
           borderRadius="10px"
@@ -42,7 +42,7 @@ const SectionOne = () => {
         />
       </Box>
       </Fade>
-   <Fade>
+   <Fade bottom>
       <Stack
    
         align="center"
@@ -62,11 +62,11 @@ const SectionOne = () => {
             </Center>
            </Stack>
               <Stack justify='center' align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
-            <Box className="logo">
-               <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
+          
+            <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
                           <Avatar name='Dan Abrahmov' size='sm'  src={linkedin} />
             </a>
-            </Box>
+        
            
             <a href="https://github.com/danielfranchi555" target="_blank">
             <Avatar name='Dan Abrahmov' size='sm' src={github} />

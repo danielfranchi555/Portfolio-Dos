@@ -1,5 +1,5 @@
 import React from 'react'
- import github from '../../img/github.png'
+ import github from '../../img/github-3.png'
 import linkedin from '../../img/linkedin.png' 
 const Footer = () => {
   return (

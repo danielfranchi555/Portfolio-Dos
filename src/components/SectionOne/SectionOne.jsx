@@ -62,18 +62,17 @@ const SectionOne = () => {
             </Center>
            </Stack>
               <Stack justify='center' spacing={3} align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
-            <Box  bg='white'>
+            <Box className="logo"  bg='white'>
                 <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
                           <Avatar  size='sm'  src={linkedin} />
             </a>
             </Box>
           
         
-           <Box  bg='white'>
+           <Box className="logo" bg='white'>
             <a href="https://github.com/danielfranchi555" target="_blank">
             <Avatar  size='sm' src={github}/>
             </a>
-
            </Box>
 
            

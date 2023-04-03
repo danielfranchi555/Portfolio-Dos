@@ -16,7 +16,7 @@ const SectionFour = () => {
     <Box >
       <Center>
        <Fade right > 
-      <Card bg='white'  maxW='sm'>   
+      <Card bg='#393e46'  maxW='sm'>   
   <CardBody className='bg' borderRadius='fill'>
           <Image
       w='50px'

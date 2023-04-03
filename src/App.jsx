@@ -16,11 +16,11 @@ function App() {
        <NavBar/>
       <div className="App" >
         <SectionOne/>    
-        <Divider w='0px'></Divider>
+        <Divider />
         <SectionDos/>
-        <Divider w='0px'></Divider>
+        <Divider/>
         <SectionFour/>
-        <Divider w='0px'></Divider>
+        <Divider />
         <SectionFIve/>
       </div>
       <Footer/>

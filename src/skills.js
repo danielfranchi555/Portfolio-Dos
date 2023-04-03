@@ -7,7 +7,10 @@ import css from '../src/img/css.png'
 import sass from '../src/img/sass.png'
 import bootstrap from '../src/img/bootstrap.png'
 import  chakra  from '../src/img/chakra.png'
-
+import  git  from '../src/img/git.png'
+import  github  from '../src/img/github.png'
+import  npm  from '../src/img/npm.png'
+import  material  from '../src/img/material.jpeg'
 
 const skills = [{
         id: 1,
@@ -43,6 +46,23 @@ const skills = [{
     {
         id: "8",
         img: sass
+    }, {
+        id: "9",
+        img: git
+    },
+    {
+        id: "10",
+        img: github
+    },
+    {
+        id: "11",
+        img: npm
+    },
+    {
+        id: "12",
+        img: material
     }
+    
 ]
+
 export default skills

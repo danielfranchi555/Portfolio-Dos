@@ -51,7 +51,7 @@ const SectionOne = () => {
         h={{ base: "320px", md: "300px" }}
       >
         <Stack justify='center' align='center'  direction="column" >
-            <Text   fontSize={{ base: "25px", md: "30px" }} color="white">
+            <Text textAlign='center'  fontSize={{ base: "25px", md: "30px" }} color="white">
           Bienvenido/a a mi portfolio
         </Text>
         <Stack  direction='row'>
@@ -78,7 +78,7 @@ const SectionOne = () => {
             textAlign='center'
           color="white"
           fontSize="16px"
-          p={5}
+          p={{base:'0px',md:'10px'}}
         >
           Mi nombre es <span style={{ color: "teal", fontWeight: "900" }}>Daniel Franchi</span> tengo 22 años actualmente vivo en Córdoba, Argentina. Me encuentro en     la búsqueda de mi primer oportunidad laboral. Estoy con muchas ganasde ser el mejor en lo que hago y encontrar ese lugar donde puedacontribuir con mi experiencia y conocimiento!
         </Text>

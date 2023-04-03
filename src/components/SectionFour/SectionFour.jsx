@@ -6,7 +6,7 @@ import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, Center, Divider, 
 
 const SectionFour = () => {
   return (
-    <Box id='skills' bg='#222831' >
+    <Box id='skills'  h={{base:'auto',md:'400px'}} >
     <Center>
           <Text fontSize='50px' color='white'>Skills</Text>
     </Center>
@@ -15,7 +15,7 @@ const SectionFour = () => {
   {skills.map((item)=>(
     <Box >
       <Center>
-       <Fade right > 
+       <Fade bottom > 
       <Card bg='#393e46'  maxW='sm'>   
   <CardBody className='bg' borderRadius='fill'>
           <Image

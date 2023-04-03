@@ -14,7 +14,7 @@ import {
 import fotoCv from "../../img/foto-cv.png";
 import React from "react";
 import linkedin from "../../img/linkedin.png";
-import github from "../../img/github-2.png";
+import github from "../../img/github-3.png";
 import react from "../../img/logo-react.png";
 import Fade from "react-reveal/Fade";
 import './sectionOne.scss'
@@ -57,20 +57,26 @@ const SectionOne = () => {
         <Stack  direction='row'>
            <Stack  border='solid 2px teal' borderRadius='10px' w='170px' justify='center' h='40px'>
             <Center  >
-            <Avatar name='Dan Abrahmov' size='xs' src={react} />
+            <Avatar  size='xs' src={react} />
              <Text color='white'> Frontend/React js</Text>
             </Center>
            </Stack>
-              <Stack justify='center' align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
+              <Stack justify='center' spacing={3} align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
+            <Box  bg='white'>
+                <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
+                          <Avatar  size='sm'  src={linkedin} />
+            </a>
+            </Box>
           
-            <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
-                          <Avatar name='Dan Abrahmov' size='sm'  src={linkedin} />
-            </a>
         
-           
+           <Box  bg='white'>
             <a href="https://github.com/danielfranchi555" target="_blank">
-            <Avatar name='Dan Abrahmov' size='sm' src={github} />
+            <Avatar  size='sm' src={github}/>
             </a>
+
+           </Box>
+
+           
            </Stack>
         </Stack>
         <Box w='auto'  >

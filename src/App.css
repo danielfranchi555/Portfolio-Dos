@@ -8,7 +8,9 @@
   font-family: 'Roboto', sans-serif;
 
   }
-
+.body{
+  background-color: #222831;
+}
 html{
   scroll-behavior:smooth ;
 }

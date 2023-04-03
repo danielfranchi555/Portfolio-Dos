@@ -22,6 +22,7 @@ import './sectionOne.scss'
 const SectionOne = () => {
   return (
     <Stack
+      m='70px'
       bg="#222831"
       py={{ base: "20px", md: "0px" }}
       justify="center"

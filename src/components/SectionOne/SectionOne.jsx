@@ -55,10 +55,10 @@ const SectionOne = () => {
           Bienvenido/a a mi portfolio
         </Text>
         <Stack  direction='row'>
-           <Stack  border='solid 2px teal' borderRadius='10px' w='170px' justify='center' h='40px'>
+           <Stack   border='solid 2px teal' borderRadius='10px' w='170px' justify='center' h='40px'>
             <Center  >
-            <Avatar  size='xs' src={react} />
-             <Text color='white'> Frontend/React js</Text>
+            <Avatar   size='xs' src={react} />
+             <Text ml={1} color='white'> Frontend/React js</Text>
             </Center>
            </Stack>
               <Stack justify='center' spacing={3} align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>

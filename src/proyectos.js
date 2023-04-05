@@ -26,7 +26,7 @@ import clima from '../src/img/app-weather.png'
          "id":"3",
          "img":movie,
          "title":"Movies-App",
-         description:'Aplicacion de Peliculas donde podras filtrar y seleccionar la pelicula que quieras con su trailer y detalle',
+         description:'Aplicacion de Peliculas consumiendo la api de TMDB  donde podras filtrar y seleccionar la pelicula que quieras con su trailer y detalle',
          link:'https://tmdb-api-theta.vercel.app/',
          Code:'https://github.com/danielfranchi555/TMDB-API.git'
 

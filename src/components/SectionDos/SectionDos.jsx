@@ -27,7 +27,7 @@ const SectionDos = () => {
       {proyectos.map((item)=>(
         <Zoom>
              <WrapItem mb='20px' >
-               <Card  bg='#393e46' h='auto'
+               <Card  w='330px' bg='#393e46' h='390px'
     maxW='400px'>
   <CardBody>
     <Image
@@ -35,10 +35,11 @@ const SectionDos = () => {
       objectFit='cover'
       alt='Green double couch with wooden legs'
       borderRadius='lg'
+      h='auto'
     />
-    <Stack mt='3' spacing='3'>
+    <Stack mt='3'   spacing='3'>
       <Heading size='md' color='white'>{item.title}</Heading>
-      <Text color='white' h='60px'>
+      <Text color='white' >
         {item.description}
       </Text>
     </Stack>

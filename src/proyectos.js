@@ -3,6 +3,8 @@ import crud from '../src/img/crud-firebase.png'
 import chat from '../src/img/chat-app.png'
 import movie from '../src/img/tmdb-api.png'
 import clima from '../src/img/app-weather.png'
+import MemoTest from '../src/img/memo-test.png'
+
 
  const proyectos = [
     {
@@ -48,6 +50,14 @@ import clima from '../src/img/app-weather.png'
          description:'App que devuelve el clima de la ciudad ingresada por el usuario',
          link:' https://danielfranchi555.github.io/App-Weather/',
          Code:'https://github.com/danielfranchi555/App-Weather.git'
+       },
+       {
+        "id":"6",
+         "img":MemoTest,
+         "title":"Memo Test",
+         description:'Juego de Memo-Test para entrenar la memoria ',
+         link:' https://memo-test-five.vercel.app/',
+         Code:'https://github.com/danielfranchi555/Memo-Test.git'
        }
  
  ]

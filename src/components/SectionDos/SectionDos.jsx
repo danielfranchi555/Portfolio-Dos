@@ -52,7 +52,6 @@ const SectionDos = () => {
         Demo
       </Button>
       </a>
-     
       <Button size='sm'   variant='outline' border='solid 1px teal'  color='#29a19c'>
         Github
       </Button>

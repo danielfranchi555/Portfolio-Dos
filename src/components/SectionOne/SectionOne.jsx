@@ -85,7 +85,7 @@ const SectionOne = () => {
           fontSize="16px"
           p={{base:'0px',md:'10px'}}
         >
-          Mi nombre es <span style={{ color: "teal", fontWeight: "900" }}>Daniel Franchi</span> tengo 22 años actualmente vivo en Córdoba, Argentina. Me encuentro en     la búsqueda de mi primer oportunidad laboral. Estoy con muchas ganasde ser el mejor en lo que hago y encontrar ese lugar donde puedacontribuir con mi experiencia y conocimiento!
+          Mi nombre es <span style={{ color: "teal", fontWeight: "900" }}>Daniel Franchi</span> tengo 22 años actualmente vivo en Córdoba, Argentina. Me encuentro en     la búsqueda de mi primer oportunidad laboral. Estoy con muchas ganas de ser el mejor en lo que hago y encontrar ese lugar donde pueda contribuir con mi experiencia y conocimiento!
         </Text>
         </Box>
       

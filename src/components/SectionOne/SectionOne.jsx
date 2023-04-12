@@ -56,7 +56,7 @@ const SectionOne = () => {
         <Stack  direction='row'>
            <Stack   border='solid 2px teal' borderRadius='10px' w='170px' justify='center' h='40px'>
             <Center  >
-            <Avatar   size='xs' src={react} />
+            <Image  w='23px' src='https://icongr.am/devicon/react-original.svg?size=128&color=currentColor'/>
              <Text ml={1} color='white'> Frontend/React js</Text>
             </Center>
            </Stack>

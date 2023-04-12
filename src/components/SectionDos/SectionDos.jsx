@@ -4,6 +4,7 @@ import {
   Card,
   CardBody,
   CardFooter,
+  CardHeader,
   Center,
   Divider,
   Heading,
@@ -27,9 +28,9 @@ const SectionDos = () => {
       {proyectos.map((item)=>(
         <Zoom>
              <WrapItem mb='20px' >
-               <Card  w='330px' bg='#393e46' h='390px'
-    maxW='400px'>
-  <CardBody>
+               <Card   bg='#393e46' h='auto'
+    maxW='290px'>
+  <Stack p={2}>
     <Image
       src={item.img}
       objectFit='cover'
@@ -37,16 +38,16 @@ const SectionDos = () => {
       borderRadius='lg'
       h='auto'
     />
-    <Stack mt='3'   spacing='3'>
-      <Heading size='md' color='white'>{item.title}</Heading>
-      <Text color='white' >
+    <Stack mt='5'  h='150px'  spacing='3'>
+      <Stack  h='130px'>
+         <Heading  size='md' color='white'>{item.title}</Heading>
+      <Text fontSize={14} color='white' >
         {item.description}
       </Text>
-    </Stack>
-  </CardBody>
-  <Divider />
-  <CardFooter>
-    <ButtonGroup spacing='2'>
+      </Stack>
+     
+      <Stack   w='100%'>
+    <ButtonGroup spacing='2' >
       <a href={item.link} target="_blank" >
          <Button size='sm' variant='outline' border='solid 1px teal'  color='#29a19c'>
         Demo
@@ -56,7 +57,11 @@ const SectionDos = () => {
         Github
       </Button>
     </ButtonGroup>
-  </CardFooter>
+  </Stack>
+    </Stack>
+  </Stack>
+  <Divider />
+ 
 </Card>
          </WrapItem>
         </Zoom>

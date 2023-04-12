@@ -14,8 +14,6 @@ import {
 } from "@chakra-ui/react";
 import fotoCv from "../../img/foto-cv.png";
 import React from "react";
-import linkedin from "../../img/linkedin.png";
-import github from "../../img/github-3.png";
 import react from "../../img/logo-react.png";
 import Fade from "react-reveal/Fade";
 import './sectionOne.scss'

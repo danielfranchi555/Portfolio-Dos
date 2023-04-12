@@ -6,6 +6,7 @@ import {
   Container,
   Flex,
   Image,
+  Img,
   Stack,
   Tag,
   TagLabel,
@@ -61,17 +62,17 @@ const SectionOne = () => {
              <Text ml={1} color='white'> Frontend/React js</Text>
             </Center>
            </Stack>
-              <Stack justify='center' spacing={3} align='center' direction='row'  borderRadius='20px' w='75px' h='40px'>
-            <Box className="logo"  bg='white'>
+              <Stack justify='center' spacing={2} align='center' direction='row'   >
+            <Box className="logo"  >
                 <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
-                          <Avatar  size='sm'  src={linkedin} />
+                          <Img w='30px' size='sm'  src='https://icongr.am/devicon/linkedin-original.svg?size=12&color=currentColor' />
             </a>
             </Box>
           
         
-           <Box className="logo" bg='white'>
+           <Box className="logo" >
             <a href="https://github.com/danielfranchi555" target="_blank">
-            <Avatar  size='sm' src={github}/>
+            <Img  size='sm' w='30px' src='https://icongr.am/devicon/github-original.svg?size=128&color=currentColor'/>
             </a>
            </Box>
 

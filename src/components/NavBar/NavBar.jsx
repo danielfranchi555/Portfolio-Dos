@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Fade from 'react-reveal/Fade'
 import { NavLink } from 'react-router-dom';
-import cv from '../../../src/Daniel-Andres-Franchi .pdf'
+import cv from '../../../src/Daniel-Andres-Franchi-original.pdf'
 import './NavBar.scss'
 
 const NavBar = () => {

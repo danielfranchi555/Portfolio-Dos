@@ -17,6 +17,7 @@ import React from "react";
 import react from "../../img/logo-react.png";
 import Fade from "react-reveal/Fade";
 import './sectionOne.scss'
+import {motion} from 'framer-motion'
 
 const SectionOne = () => {
   return (
@@ -61,14 +62,15 @@ const SectionOne = () => {
             </Center>
            </Stack>
               <Stack justify='center' spacing={2} align='center' direction='row'   >
-            <Box className="logo"  >
+            <Box className="logo" as={motion.div}           whileHover={{ scale: 1.2 }}
+  >
                 <a href="https://www.linkedin.com/in/daniel-franchi-409359238/" target="_blank">
                           <Img w='30px' size='sm'  src='https://icongr.am/devicon/linkedin-original.svg?size=12&color=currentColor' />
             </a>
             </Box>
           
         
-           <Box className="logo" >
+           <Box className="logo" as={motion.div}           whileHover={{ scale: 1.2 }} >
             <a href="https://github.com/danielfranchi555" target="_blank">
             <Img  size='sm' w='30px' src='https://icongr.am/devicon/github-original.svg?size=128&color=currentColor'/>
             </a>

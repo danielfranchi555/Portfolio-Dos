@@ -17,7 +17,7 @@ import {
 import Zoom from "react-reveal/Zoom";
 import proyectos from '../../proyectos'
 import "./SectionDos.scss";
-
+import {motion} from 'framer-motion'
 const SectionDos = () => {
   return (
     <Stack id="proyectos" bg='#222831'> 
@@ -49,11 +49,11 @@ const SectionDos = () => {
       <Stack   w='100%'>
     <ButtonGroup spacing='2' >
       <a href={item.link} target="_blank" >
-         <Button size='sm' variant='outline' border='solid 1px teal'  color='#29a19c'>
+         <Button as={motion.div}           whileHover={{ scale: 1.1 }} size='sm' variant='outline' border='solid 1px teal'  color='#29a19c'>
         Demo
       </Button>
       </a>
-      <Button size='sm'   variant='outline' border='solid 1px teal'  color='#29a19c'>
+      <Button cursor='pointer' size='sm' as={motion.div} whileHover={{ scale: 1.1 }}   variant='outline' border='solid 1px teal'  color='#29a19c'>
         Github
       </Button>
     </ButtonGroup>
